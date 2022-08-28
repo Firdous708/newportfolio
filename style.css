@@ -1,0 +1,31 @@
+body {
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 96%);
+}
+.img-responsive {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    border-radius: 100px;
+}
+.center {
+    text-align: center;
+    width: 100;
+}
+#but1 {
+    margin-left: 30%;
+    height: 50px;
+    width: 140px;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    margin-top: 60px;
+}
+#but1:hover {
+    background-color: darkblue;
+    box-shadow: 5px 5px 5px red;
+}
+
+
